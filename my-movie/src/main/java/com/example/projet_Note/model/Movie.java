@@ -1,5 +1,6 @@
 package com.example.projet_Note.model;
 
+
 public class Movie {
 
     private String titre;
@@ -14,4 +15,27 @@ public class Movie {
         this.acteur = acteur;
         this.date = date;
     }
+
+    public Movie(){
+        super();
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public String getRealisation() {
+        return realisation;
+    }
+
+    public Acteur getActeur() {
+        return acteur;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+
+
 }
